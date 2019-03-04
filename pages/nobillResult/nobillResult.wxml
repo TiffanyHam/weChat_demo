@@ -1,0 +1,187 @@
+<view class='bgPart'>
+  <view class="weui-cell">
+    <view class="weui-cell__bd">
+      <view class="weui-label" style='font-weight:800'>ZH9595</view>
+    </view>
+    <view class="weui-cell__ft blackCo">
+      2018-02-02
+    </view>
+  </view>
+  <view class="weui-cell">
+    <view class="weui-cell__hd">
+      <view class="weui-label">出发到达</view>
+    </view>
+    <view class="weui-cell__bd">
+      YIC-HAK
+    </view>
+  </view>
+  <view class="weui-cell">
+    <view class="weui-cell__hd">
+      <view class="weui-label">起降时间</view>
+    </view>
+    <view class="weui-cell__bd">
+      15:22-22:33
+    </view>
+  </view>
+  <view class="weui-cell">
+    <view class="weui-cell__hd">
+      <view class="weui-label">协议舱位</view>
+    </view>
+    <view class="weui-cell__bd">
+      F:0.00;C:0.00;其他:0.00
+    </view>
+  </view>
+  <view class="weui-cell">
+    <view class="weui-cell__hd">
+      <view class="weui-label">剩余舱位</view>
+    </view>
+    <view class="weui-cell__bd">
+      4500
+    </view>
+  </view>
+  <view class="weui-cell weui-cell_input">
+    <view class="weui-cell__hd">
+      <view class="weui-label blueCo">F舱</view>
+    </view>
+    <view class="weui-cell__bd">
+      <input class="weui-input" placeholder="请输入舱位信息" />
+    </view>
+  </view>
+  <view class="weui-cell weui-cell_input">
+    <view class="weui-cell__hd">
+      <view class="weui-label blueCo">C舱</view>
+    </view>
+    <view class="weui-cell__bd">
+      <input class="weui-input" placeholder="请输入舱位信息" />
+    </view>
+  </view>
+  <view class="weui-cell weui-cell_input">
+    <view class="weui-cell__hd">
+      <view class="weui-label blueCo">其他</view>
+    </view>
+    <view class="weui-cell__bd">
+      <input class="weui-input" placeholder="请输入舱位信息" />
+    </view>
+  </view>
+
+  <view class="weui-cell">
+    <button class="weui-btn" type="warn">展开订舱</button>
+    <button class="weui-btn btn_gray" type="warn">取消</button>
+    <button class="weui-btn" type="warn">提交</button>
+  </view>
+
+</view>
+<view class='bgPart'>
+  <view class="weui-cell">
+    <view class="weui-cell__bd">
+      <view class="weui-label" style='font-weight:800'>ZH9595</view>
+    </view>
+    <view class="weui-cell__ft blackCo">
+      2018-02-02
+    </view>
+  </view>
+  <view class="weui-cell">
+    <view class="weui-cell__hd">
+      <view class="weui-label">出发到达</view>
+    </view>
+    <view class="weui-cell__bd">
+      YIC-HAK
+    </view>
+  </view>
+  <view class="weui-cell">
+    <view class="weui-cell__hd">
+      <view class="weui-label">起降时间</view>
+    </view>
+    <view class="weui-cell__bd">
+      15:22-22:33
+    </view>
+  </view>
+  <view class="weui-cell">
+    <view class="weui-cell__hd">
+      <view class="weui-label">协议舱位</view>
+    </view>
+    <view class="weui-cell__bd">
+      F:0.00;C:0.00;其他:0.00
+    </view>
+  </view>
+  <view class="weui-cell">
+    <view class="weui-cell__hd">
+      <view class="weui-label">剩余舱位</view>
+    </view>
+    <view class="weui-cell__bd">
+      4500
+    </view>
+  </view>
+
+  <view class="weui-cell">
+    <view class="weui-cell__bd">
+      <view class="weui-label" style='font-weight:800'>ZH9500</view>
+    </view>
+    <view class="weui-cell__ft blackCo">
+      2018-02-02
+    </view>
+  </view>
+  <view class="weui-cell">
+    <view class="weui-cell__hd">
+      <view class="weui-label">出发到达</view>
+    </view>
+    <view class="weui-cell__bd">
+      YIC-HAK
+    </view>
+  </view>
+  <view class="weui-cell">
+    <view class="weui-cell__hd">
+      <view class="weui-label">起降时间</view>
+    </view>
+    <view class="weui-cell__bd">
+      15:22-22:33
+    </view>
+  </view>
+  <view class="weui-cell">
+    <view class="weui-cell__hd">
+      <view class="weui-label">协议舱位</view>
+    </view>
+    <view class="weui-cell__bd">
+      F:0.00;C:0.00;其他:0.00
+    </view>
+  </view>
+  <view class="weui-cell">
+    <view class="weui-cell__hd">
+      <view class="weui-label">剩余舱位</view>
+    </view>
+    <view class="weui-cell__bd">
+      4500
+    </view>
+  </view>
+
+  <view class="weui-cell weui-cell_input">
+    <view class="weui-cell__hd">
+      <view class="weui-label blueCo">F舱</view>
+    </view>
+    <view class="weui-cell__bd">
+      <input class="weui-input" placeholder="请输入舱位信息" />
+    </view>
+  </view>
+  <view class="weui-cell weui-cell_input">
+    <view class="weui-cell__hd">
+      <view class="weui-label blueCo">C舱</view>
+    </view>
+    <view class="weui-cell__bd">
+      <input class="weui-input" placeholder="请输入舱位信息" />
+    </view>
+  </view>
+  <view class="weui-cell weui-cell_input">
+    <view class="weui-cell__hd">
+      <view class="weui-label blueCo">其他</view>
+    </view>
+    <view class="weui-cell__bd">
+      <input class="weui-input" placeholder="请输入舱位信息" />
+    </view>
+  </view>
+
+  <view class="weui-cell">
+    <button class="weui-btn" type="warn">展开订舱</button>
+    <button class="weui-btn btn_gray" type="warn">取消</button>
+    <button class="weui-btn" type="warn">提交</button>
+  </view>
+</view>

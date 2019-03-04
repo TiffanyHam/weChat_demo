@@ -1,0 +1,37 @@
+<view class='log'>
+  <image src='../../static/images/login/logo.png' class='logoImg'></image>
+</view>
+<view class='login_page'>
+  <view class="weui-cell login_input">
+    <view class="weui-cell__hd">
+      <view class="weui-label">
+        <image src='../../static/images/login/user.png' class='userImg'></image>
+      </view>
+    </view>
+    <view class="weui-cell__bd">
+      <input class="weui-input" placeholder="用户账号" />
+    </view>
+  </view>
+  <view class="weui-cell login_input">
+    <view class="weui-cell__hd">
+      <view class="weui-label">
+        <image src='../../static/images/login/password.png' class='userImg'></image>
+      </view>
+    </view>
+    <view class="weui-cell__bd">
+      <input class="weui-input" placeholder="用户密码" />
+    </view>
+  </view>
+  <checkbox-group bindchange="bindAgreeChange">
+    <label class="weui-agree" for="weuiAgree">
+      <view class="weui-agree__text">
+        <checkbox class="weui-agree__checkbox" id="weuiAgree" value="agree" checked="{{isAgree}}" />
+        <view class="weui-agree__checkbox-icon">
+          <icon class="weui-agree__checkbox-icon-check" type="success_no_circle" size="9" wx:if="{{isAgree}}"></icon>
+        </view>
+        <text class='blackCo'> 与微信号绑定</text>
+      </view>
+    </label>
+  </checkbox-group>
+  <button class="weui-btn" type="warn" bindtap="bindViewTap">登录</button>
+</view>

@@ -1,0 +1,9 @@
+.txCenter{text-align: center}
+.weui-cell_input {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.chaImg{width: 30px;height: 30px}
+.weui-flex {
+  border-bottom: 1px solid #eeeaea;
+}

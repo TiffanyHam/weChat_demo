@@ -1,0 +1,95 @@
+@import "./common/vendor.wxss";
+@import "./static/style/weui.wxss";
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+}
+
+.weui-flex {
+  border-bottom: none !important;
+}
+
+.bgPart {
+  background: #fff;
+  margin: 3% 0;
+}
+
+.blackCo {
+  color: #000 !important;
+}
+
+.grayCo {
+  color: #212121 !important;
+}
+
+.blueCo {
+  color: #016dd3 !important;
+}
+
+.linH {
+  height: 34px;
+  line-height: 34px;
+}
+
+.weui-label {
+  font-size: 15px;
+  color: #000;
+  text-align: left;
+}
+
+.weui-input, .weui-cell__bd {
+  font-size: 13px;
+  color: #999;
+  text-align: left;
+}
+
+.weui-cell__ft {
+  font-size: 13px;
+  color: #999;
+}
+
+page {
+  background: #f8f8f8;
+}
+
+.font16 {
+  font-size: 16px;
+  color: #000;
+  font-weight: 800;
+}
+
+.txLeft {
+  text-align: left;
+}
+
+.txCenter {
+  text-align: center;
+}
+
+.txright {
+  text-align: right;
+}
+
+.btns {
+  width: 85%;
+  margin: 8% auto;
+  padding-bottom:5%;
+}
+
+.weui-cell_input {
+  padding: 10px 15px;
+}
+
+.btn_gray {
+  background: #888 !important;
+}
+
+.weui-btn:first-child {
+  margin-top: 15px;
+}

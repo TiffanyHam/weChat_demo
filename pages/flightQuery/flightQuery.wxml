@@ -1,0 +1,130 @@
+<view class='bgPart'>
+
+  <view class="weui-flex">
+    <view>
+      <view class="inputPa"> 航班号</view>
+    </view>
+    <view class="weui-flex__item">
+      <view class="">
+        <input class="weui-input login_input" placeholder="如ZH9582或9582" />
+      </view>
+    </view>
+    <view>
+      <view class="inputPa"></view>
+    </view>
+  </view>
+
+  <view class="weui-flex">
+    <view>
+      <view class="inputPa">日 期</view>
+    </view>
+    <view class="weui-flex__item">
+      <view class="">
+        <picker mode="date" value="{{date}}" start="2019-02-01" end="2019-02-01" bindchange="bindDateChange">
+          <view class="weui-input login_input">{{date}}</view>
+        </picker>
+      </view>
+    </view>
+    <view>
+      <view class="inputPa">
+        <icon type="search" size="25" style='margin-top:5px'></icon>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view class='bgPart'>
+  <view class="weui-cell weui-cell_access">
+    <view class="weui-cell__bd font16">
+      <text>呼和浩特</text>
+      <image src='../../static/images/flight/into.png' class='intoIma'></image>
+      <text>乌鲁木齐</text>
+    </view>
+    <view class="weui-cell__ft blackCo">
+      <view>2018-02-02</view>
+    </view>
+  </view>
+  <view class="weui-cell"></view>
+
+  <view class="weui-flex">
+    <view class="weui-flex__item">
+      <view class="placeholder">
+        <view class='blackCo'>12:23</view>
+        <view>2018-02-02</view>
+        <view>呼和浩特</view>
+      </view>
+    </view>
+    <view class="weui-flex__item">
+      <view class="placeholder">
+        <image src='../../static/images/flight/air.png' class='airIma'></image>
+      </view>
+    </view>
+    <view class="weui-flex__item">
+      <view class="placeholder">
+        <view class='blackCo'>13:23</view>
+        <view>2018-02-02</view>
+        <view>武汉</view>
+      </view>
+    </view>
+  </view>
+  <view class="weui-cell"></view>
+  <view class="weui-flex">
+    <view class="weui-flex__item">
+      <view class="placeholder">
+        <view class='blackCo'>14:23</view>
+        <view>2018-02-02</view>
+        <view>武汉</view>
+      </view>
+    </view>
+    <view class="weui-flex__item">
+      <view class="placeholder">
+        <image src='../../static/images/flight/air.png' class='airIma'></image>
+      </view>
+    </view>
+    <view class="weui-flex__item">
+      <view class="placeholder">
+        <view class='blackCo'>16:23</view>
+        <view>2018-02-02</view>
+        <view>呼和浩特</view>
+      </view>
+    </view>
+  </view>
+
+</view>
+
+<view class='bgPart'>
+  <view class="weui-cell weui-cell_access">
+    <view class="weui-cell__bd font16">
+      <text>深圳</text>
+      <image src='../../static/images/flight/into.png' class='intoIma'></image>
+      <text>北京</text>
+    </view>
+    <view class="weui-cell__ft blackCo">
+      <view>2018-02-01</view>
+    </view>
+  </view>
+  <view class="weui-cell"></view>
+
+  <view class="weui-flex">
+    <view class="weui-flex__item">
+      <view class="placeholder">
+        <view class='blackCo'>12:23</view>
+        <view>2018-02-01</view>
+        <view>深圳</view>
+      </view>
+    </view>
+    <view class="weui-flex__item">
+      <view class="placeholder">
+        <image src='../../static/images/flight/air.png' class='airIma'></image>
+      </view>
+    </view>
+    <view class="weui-flex__item">
+      <view class="placeholder">
+        <view class='blackCo'>13:23</view>
+        <view>2018-02-01</view>
+        <view>北京</view>
+      </view>
+    </view>
+  </view>
+
+</view>

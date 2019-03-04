@@ -1,0 +1,36 @@
+.chaImg{width: 30px;height: 30px}
+/* 自定义 radio 样式 */
+
+checkbox {
+  width: 38rpx;
+}
+
+.item-right {
+  width: 100%;
+}
+
+.raWid {
+  width: 33.3%;
+  display: inline-block;
+}
+
+checkbox .wx-checkbox-input {
+  border-radius: 0%;
+  width: 28rpx;
+  height: 28rpx;
+}
+
+/* 选中后的样式 （可根据设计稿需求自己修改） */
+
+checkbox .wx-checkbox-input.wx-checkbox-input-checked::before {
+  border-radius: 0%;
+  width: 44rpx;
+  height: 44rpx;
+  line-height: 44rpx;
+  text-align: center;
+  font-size: 26rpx; /* 对勾大小 26rpx */
+  color: #fff; /* 对勾颜色 */
+  background: #2facff;
+  border-color: #2facff;
+}
+

@@ -1,0 +1,18 @@
+<view class='userCount'>
+  <view class="weui-cell">
+    <view class="weui-cell__hd" style="margin-right: 10px;">
+      <image src="../../static/images/acount/user.png" class='userImg' />
+    </view>
+    <view class="weui-cell__bd">
+      <view class='font16'>张三</view>
+      <view style="font-size: 13px;color: #888;">A001</view>
+    </view>
+    <view class="weui-cell__ft">
+      <view class='font16'>已绑定微信号</view>
+    </view>
+  </view>
+  </view>
+  <view class='btns'>
+    <button class="weui-btn font16" type="warn" bindtap='bindViewTap'>绑定微信/解除微信绑定</button>
+  </view>
+

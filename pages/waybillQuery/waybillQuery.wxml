@@ -1,0 +1,92 @@
+<view class='bgPart'>
+  <view class="weui-cell">
+    <view class="weui-cell__hd">
+      <view class="weui-label">运单号</view>
+    </view>
+    <view class="weui-cell__bd">
+      <input class="weui-input" placeholder="479-如12345678" class='billNum' />
+    </view>
+    <view class="weui-cell__ft">
+      <icon type="search" size="25"></icon>
+    </view>
+  </view>
+</view>
+<view class='bgPart'>
+  <view class="weui-cell">
+    <view class="weui-cell__hd">
+      <view class="weui-label">运单号</view>
+    </view>
+    <view class="weui-cell__bd">
+      479-12345678
+    </view>
+    <view class="weui-cell__ft speCo">
+      已配未核单
+    </view>
+  </view>
+  <view class="weui-cell">
+    <view class="weui-cell__hd">
+      <view class="weui-label">始发站</view>
+    </view>
+    <view class="weui-cell__bd">
+      海口
+    </view>
+  </view>
+  <view class="weui-cell">
+    <view class="weui-cell__hd">
+      <view class="weui-label">到达站</view>
+    </view>
+    <view class="weui-cell__bd">
+      深圳
+    </view>
+  </view>
+  <view class="weui-cell">
+    <view class="weui-cell__hd">
+      <view class="weui-label">航班号</view>
+    </view>
+    <view class="weui-cell__bd">
+      ZH8090
+    </view>
+  </view>
+
+</view>
+
+<view class='bgPart'>
+  <view class="weui-cell">
+    <view class="weui-cell__hd">
+      <view class="weui-label">件数</view>
+    </view>
+    <view class="weui-cell__bd">
+      24
+    </view>
+    <view class="weui-cell__ft">
+      件
+    </view>
+  </view>
+  <view class="weui-cell">
+    <view class="weui-cell__hd">
+      <view class="weui-label">重量</view>
+    </view>
+    <view class="weui-cell__bd">
+      283.33
+    </view>
+    <view class="weui-cell__ft">
+      公斤
+    </view>
+  </view>
+  <view class="weui-cell">
+    <view class="weui-cell__hd">
+      <view class="weui-label">提货电话</view>
+    </view>
+    <view class="weui-cell__bd">
+      0755-232323
+    </view>
+  </view>
+  <view class="weui-cell">
+    <view class="weui-cell__hd">
+      <view class="weui-label">提货信息</view>
+    </view>
+    <view class="weui-cell__bd">
+      预计可于2019年1月23日提货,相关注意事项：1、易碎物品，小心轻放;
+    </view>
+  </view>
+</view>

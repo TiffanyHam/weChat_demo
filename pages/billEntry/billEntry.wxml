@@ -1,0 +1,142 @@
+<view class='bgPart'>
+  <view class="weui-cell">
+    <view class="weui-cell__hd">
+      <view class="weui-label">运单号</view>
+    </view>
+    <view class="weui-cell__bd">
+      <input class="weui-input" placeholder="479-1234567" />
+    </view>
+  </view>
+  <view class="weui-cell">
+    <view class="weui-cell__hd">
+      <view class="weui-label">始发站</view>
+    </view>
+    <view class="weui-cell__bd">
+      <input class="weui-input" placeholder="如深圳" />
+    </view>
+  </view>
+  <view class="weui-cell">
+    <view class="weui-cell__hd">
+      <view class="weui-label">到达站</view>
+    </view>
+    <view class="weui-cell__bd">
+      <input class="weui-input" placeholder="如南京" />
+    </view>
+  </view>
+  <view class="weui-cell">
+    <view class="weui-cell__hd">
+      <view class="weui-label">中转城市</view>
+    </view>
+    <view class="weui-cell__bd">
+      <input class="weui-input" placeholder="如南京（直达航班可不填）" />
+    </view>
+  </view>
+</view>
+<view class='bgPart'>
+  <view class="weui-cell">
+    <view class="weui-cell__hd">
+      <view class="weui-label">航班日期</view>
+    </view>
+    <view class="weui-cell__bd">
+      <picker mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange">
+        <view class="weui-input">{{date}}</view>
+      </picker>
+    </view>
+  </view>
+  <view class="weui-cell">
+    <view class="weui-cell__hd">
+      <view class="weui-label">航班号</view>
+    </view>
+    <view class="weui-cell__bd">
+      <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+      <input class="weui-input" placeholder="请选择航班号" />
+            </picker>
+    </view>
+  </view>
+  <view class="weui-cell">
+    <view class="weui-cell__hd">
+      <view class="weui-label">承运人</view>
+    </view>
+    <view class="weui-cell__bd">
+      <input class="weui-input" placeholder="如张三" />
+    </view>
+  </view>
+</view>
+
+<view class='bgPart'>
+
+  <view class="weui-cell">
+    <view class="weui-cell__hd">
+      <view class="weui-label">货物代码及品名</view>
+    </view>
+    <view class="weui-cell__bd">
+      <input class="weui-input" placeholder="请选择货物代码及品名" />
+    </view>
+  </view>
+
+  <view class="weui-cell">
+    <view class="weui-cell__hd">
+      <view class="weui-label">件数</view>
+    </view>
+    <view class="weui-cell__bd">
+      <input class="weui-input" placeholder="如10" />
+    </view>
+    <view class="weui-cell__ft">件
+    </view>
+  </view>
+
+  <view class="weui-cell">
+    <view class="weui-cell__hd">
+      <view class="weui-label">重量</view>
+    </view>
+    <view class="weui-cell__bd">
+      <input class="weui-input" placeholder="如100" />
+    </view>
+    <view class="weui-cell__ft">公斤
+    </view>
+  </view>
+
+  <view class="weui-cell">
+    <view class="weui-cell__hd">
+      <view class="weui-label">剩余舱位</view>
+    </view>
+    <view class="weui-cell__bd">
+      <input class="weui-input" placeholder="" />
+    </view>
+    <view class="weui-cell__ft">公斤
+    </view>
+  </view>
+
+  <view class="weui-cell">
+    <view class="weui-cell__hd">
+      <view class="weui-label">使用舱位</view>
+    </view>
+    <view class="weui-cell__bd">
+      <input class="weui-input" placeholder="剩余舱位/超舱" />
+    </view>
+  </view>
+
+  <view class="weui-cell">
+    <view class="weui-cell__hd">
+      <view class="weui-label">特码</view>
+    </view>
+    <view class="weui-cell__bd">
+      <input class="weui-input" placeholder="请选择特码" />
+    </view>
+  </view>
+
+
+  <view class="weui-cell">
+    <view class="weui-cell__hd">
+      <view class="weui-label">代理人</view>
+    </view>
+    <view class="weui-cell__bd">
+      <input class="weui-input" placeholder="YICJN" />
+    </view>
+  </view>
+  <view style='padding-bottom:5%' >
+    <button class="weui-btn"  bindtap="openToast" type="warn" style='width:40%;' >提交</button>
+</view>
+
+
+</view>

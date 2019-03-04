@@ -1,0 +1,12 @@
+<view>
+  <image src='../../static/images/main/banner.jpg' class='banar_img'></image>
+</view>
+<view class="home_grids">
+  <block wx:for="{{griddata}}" wx:key="item.name">
+   <navigator url="../{{item.url}}/{{item.url}}" class='home_grid'>
+    <view class="placeholder"><image src="{{item.img}}" class="home_icon"></image></view>
+    <view class="placeholder"><text class="home_grid_text">{{item.name}}</text></view>
+   </navigator>
+  </block>
+ </view>
+

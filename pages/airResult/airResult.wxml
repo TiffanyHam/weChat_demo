@@ -1,0 +1,97 @@
+<view class='bgPart'>
+  <view class="weui-cell weui-cell_access">
+    <view class="weui-cell__bd font16">
+      <text>呼和浩特</text>
+      <image src='../../static/images/flight/into.png' class='intoIma'></image>
+      <text>乌鲁木齐</text>
+    </view>
+    <view class="weui-cell__ft blackCo">
+      <view>2018-02-02</view>
+    </view>
+  </view>
+  <view class="weui-cell"></view>
+
+  <view class="weui-flex">
+
+    <view class="weui-flex__item">
+      <view class="placeholder">
+        <view class='blackCo'>12:23</view>
+        <view>呼和浩特</view>
+      </view>
+    </view>
+    <view class="weui-flex__item">
+      <view class="placeholder">
+        <image src='../../static/images/flight/air.png' class='airIma'></image>
+      </view>
+    </view>
+    <view class="weui-flex__item">
+      <view class="placeholder">
+        <view class='blackCo'>13:23</view>
+        <view>武汉</view>
+      </view>
+    </view>
+  </view>
+  <view style='padding:10px 15px;font-size:14px'>航班ZH9391 |飞机号B6297 | 飞机类型322</view>
+  <view class="weui-cell"></view>
+
+
+  <view class="weui-flex">
+    <view class="weui-flex__item">
+      <view class="placeholder">
+        <view class='blackCo'>14:23</view>
+        <view>武汉</view>
+      </view>
+    </view>
+    <view class="weui-flex__item">
+      <view class="placeholder">
+        <image src='../../static/images/flight/air.png' class='airIma'></image>
+      </view>
+    </view>
+    <view class="weui-flex__item">
+      <view class="placeholder">
+        <view class='blackCo'>16:23</view>
+        <view>呼和浩特</view>
+      </view>
+    </view>
+  </view>
+  <view style='padding:10px 15px;font-size:14px'>航班ZH9391 |飞机号B6297 | 飞机类型322</view>
+  <view class="weui-cell"></view>
+
+</view>
+
+<view class='bgPart'>
+  <view class="weui-cell weui-cell_access">
+    <view class="weui-cell__bd font16">
+      <text>深圳</text>
+      <image src='../../static/images/flight/into.png' class='intoIma'></image>
+      <text>北京</text>
+    </view>
+    <view class="weui-cell__ft blackCo">
+      <view>2018-02-01</view>
+    </view>
+  </view>
+  <view class="weui-cell"></view>
+
+  <view class="weui-flex">
+    <view class="weui-flex__item">
+      <view class="placeholder">
+        <view class='blackCo'>12:23</view>
+        <view>深圳</view>
+      </view>
+    </view>
+    <view class="weui-flex__item">
+      <view class="placeholder">
+        <image src='../../static/images/flight/air.png' class='airIma'></image>
+      </view>
+    </view>
+    <view class="weui-flex__item">
+      <view class="placeholder">
+        <view class='blackCo'>13:23</view>
+        <view>北京</view>
+      </view>
+    </view>
+  </view>
+  
+  <view style='padding:10px 15px;font-size:14px'>航班ZH9391 |飞机号B6297 | 飞机类型322</view>
+
+</view>

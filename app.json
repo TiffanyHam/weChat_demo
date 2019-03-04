@@ -1,0 +1,24 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/main/main",
+    "pages/airResult/airResult",
+    "pages/nobillResult/nobillResult",
+    "pages/approvalResult/approvalResult",
+    "pages/batchResult/batchResult",
+    "pages/waybillQuery/waybillQuery",
+    "pages/airnumQuery/airnumQuery",
+    "pages/flightQuery/flightQuery",
+    "pages/nonbill/nonbill",
+    "pages/approvalShip/approvalShip",
+    "pages/batchQuery/batchQuery",
+    "pages/billEntry/billEntry",
+    "pages/acountManage/acountManage"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  }
+}

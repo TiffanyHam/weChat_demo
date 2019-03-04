@@ -1,0 +1,74 @@
+<view class='bgPart'>
+  <view class="weui-cell">
+    <view class="weui-cell__bd">
+      <view class="weui-label">始发站</view>
+      <view class="weui-label" style="font-size:13px">宜春YCI</view>
+    </view>
+    <view class="weui-cell__bd">
+      <view class="weui-label">
+        <view class="placeholder">
+          <image src='../../static/images/air/change.png' class='chaImg'></image>
+        </view>
+      </view>
+    </view>
+    <view class="weui-cell__bd">
+      <view class="weui-label">目的站</view>
+      <view class="weui-input">如南京</view>
+    </view>
+  </view>
+
+  <view class="weui-cell">
+    <view class="weui-cell__hd">
+      <view class="weui-label">中转城市</view>
+    </view>
+    <view class="weui-cell__bd">
+      <input class="weui-input" placeholder="中文名/三字码" />
+    </view>
+
+  </view>
+
+  <view class="weui-cell">
+    <view class="weui-cell__hd">
+      <view class="weui-label">航班号</view>
+    </view>
+    <view class="weui-cell__bd">
+      <input class="weui-input" placeholder="如ZH9582" />
+    </view>
+  </view>
+
+  <view class="weui-cell">
+    <view class="weui-cell__bd">
+      <picker mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange">
+        <view class="weui-input" style='font-size:15px;color:#000'>{{date}}</view>
+      </picker>
+    </view>
+    <view class="weui-cell__bd">
+      <view class="weui-label" style='font-size:13px;color:#999'>——</view>
+    </view>
+    <view class="weui-cell__bd">
+      <picker mode="date" value="{{date1}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange1">
+        <view class="weui-input" style='font-size:15px;color:#000'>{{date1}}</view>
+      </picker>
+    </view>
+  </view>
+
+  <view class="weui-cell">
+    <view class="weui-cell__hd">
+      <view class="weui-label">代理人</view>
+    </view>
+    <view class="weui-cell__bd">
+      <input class="weui-input" placeholder="如SZXADH" />
+    </view>
+  </view>
+  <view class="weui-cell">
+    <radio-group class="item-right radio-group">
+      <label class="radio weui-label raWid" wx:for="{{items}}">
+        <radio value="{{item.name}}" checked="{{item.checked}}" />
+        <text style='margin-left:5px;'>{{item.name}}</text>
+      </label>
+    </radio-group>
+  </view>
+  <view class='btns'>
+    <button class="weui-btn" type="warn" bindtap="bindViewTap">查询</button>
+  </view>
+</view>
