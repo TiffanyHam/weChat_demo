@@ -9,3 +9,4 @@
 * 小程序的界面布局
 * 本地缓存的读取与存储
 * 页面跳转
+![image](https://github.com/TiffanyHam/wxDemo/blob/Test/readme_pic/air.png)
