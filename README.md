@@ -13,3 +13,6 @@
 * 表单提交
 * 本地缓存的读取与存储
 * 页面跳转
+
+# 体验
+![image](https://github.com/TiffanyHam/wxDemo/blob/Test/readme_pic/airSystem.jpg)
